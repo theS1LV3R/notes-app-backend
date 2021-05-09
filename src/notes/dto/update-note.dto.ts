@@ -10,5 +10,5 @@ export class UpdateNoteDto extends PartialType(CreateNoteDto) {
   content?: string;
 
   @ApiPropertyOptional()
-  archived?: string;
+  archived?: boolean;
 }

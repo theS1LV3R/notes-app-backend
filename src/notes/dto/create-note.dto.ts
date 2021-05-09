@@ -8,5 +8,5 @@ export class CreateNoteDto {
   content: string;
 
   @ApiProperty()
-  archived: string;
+  archived: boolean;
 }
