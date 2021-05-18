@@ -6,7 +6,7 @@ import { NotesModule } from './notes/notes.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mongodb',
-      url: 'mongodb://localhost:27017',
+      url: 'mongodb://localhost:27017/todo-app',
       useNewUrlParser: true,
       useUnifiedTopology: true,
       autoLoadEntities: true,
