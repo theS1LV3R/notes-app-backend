@@ -4,7 +4,7 @@ import { Entity, Column, ObjectIdColumn } from 'typeorm';
 @Entity()
 export class Note {
   @ObjectIdColumn()
-  id: ObjectId;
+  id: string;
 
   @Column()
   title: string;
